@@ -13,10 +13,11 @@ console.log('Suma = ' + result);
 
 console.log('Zadanie z pętlą while !!!!!!!!!!!!!!!!!!!!!!!');
 let k = 1;
+let result_3 = 0;
 
 while (k <= x) {
-    console.log('result = ' + result + ' + ' + k);
-    result += k;
+    console.log('result = ' + result_3 + ' + ' + k);
+    result_3 += k;
     k++;
 }
 
