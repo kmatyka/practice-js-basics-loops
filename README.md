@@ -18,7 +18,7 @@ Sprawdź czy Twoja wiedza z pętli w JS jest wystarczająca!
 
 ## Jak wykonać zadania?
 
-Po pobraniu plików (o czym za chwilę) należy wykonywać zadania zgodnie z numerami - od najniższego numeru do najwyższego. Zgodnie z ich treścią, którą znajdziesz w pliku README.md w każdym z katalogów. Poziom trudności stopniowo się zwiększa.
+Po pobraniu plików (o czym za chwilę) należy wykonywać zadania zgodnie z numerami - od najniższego numeru do najwyższego. Zgodnie z ich treścią, którą znajdziesz w pliku README.md, w każdym z katalogów. Poziom trudności stopniowo się zwiększa.
 
 Mamy dwie ścieżki dla pobrania plików:
 
