@@ -4,8 +4,8 @@ let randomNumber = -1;
 
 while(randomNumber !== x) {
     randomNumber = Math.round(Math.random() * 10);
-    iteration++
-    console.log(randomNumber)
+    iteration++;
+    console.log(randomNumber);
 }
 
-alert("Brawo udało Cię za " + iteration + " razem")
+alert("Brawo udało Cię za " + iteration + " razem");
