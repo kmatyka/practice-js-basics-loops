@@ -7,9 +7,7 @@ if (randomNumber > 5) {
             console.log(i);
         }
     }
-}
-
-if (randomNumber <= 5) {
+} else {
     console.log('Wylosowana liczba jest zbyt mała by użyć pętli!')
 }
 
