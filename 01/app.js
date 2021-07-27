@@ -2,7 +2,7 @@ const randomNumber = Math.round(Math.random() * 20);
 
 if (randomNumber > 5) {
     console.log(`Wylosowana liczba to ${randomNumber}, zatem odliczamy od 5 do ${randomNumber}:`)
-    for (let i=5; i < randomNumber + 1; i++) {
+    for (let i=5; i <= randomNumber; i++) {
         console.log(i);
     }
 } else {
