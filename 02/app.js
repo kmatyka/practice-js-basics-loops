@@ -1,7 +1,7 @@
 const x = 5;
 let resultForLoop = 0;
 
-for ( z=1; z<=x; z++) {
+for (let z=1; z<=x; z++) {
 
     resultForLoop = resultForLoop + z;
 
