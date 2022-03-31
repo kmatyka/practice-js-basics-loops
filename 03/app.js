@@ -8,4 +8,5 @@ while (x !== randomNumber) {
 }
 
 console.log('Liczby zrównały się w ' + iteration + ' próbie');
-console.log(randomNumber);
+console.log('wylosowana liczba: ' + randomNumber);
+console.log('szukana liczba: ' + x);
