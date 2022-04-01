@@ -8,9 +8,5 @@ while (randomNumber !== x) {
     console.log(`randomNumber is ${randomNumber}`);
 };
 
-if (randomNumber === x) {
-    console.log(`While loop trying ${iteration} times to match your ${x} num`);
-};
-
 
 

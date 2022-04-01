@@ -3,7 +3,7 @@ console.log(randomNumber);
 
 
 if (randomNumber > 5) {
-    for (i = 5; i < randomNumber+1; i++){
+    for (let i = 5; i < randomNumber+1; i++){
       console.log(i);
     }
 } else {
