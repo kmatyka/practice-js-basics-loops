@@ -9,3 +9,4 @@ while (randomNumber !==x) {
 // randomNumber = Math.round(Math.random()*x);
 // console.log(randomNumber);
 console.log("Iteration count: ",iteration);
+console.log("randomNumber: ", randomNumber);
