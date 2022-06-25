@@ -1,2 +1,10 @@
 const randomNumber = Math.round(Math.random() * 20);
-console.log(randomNumber);
+console.log(`Wylosowana liczba to: ${randomNumber} `);
+
+if (randomNumber > 5) {
+	for (let i = 0; i <= randomNumber; i++) {
+		console.log(i);
+	}
+} else {
+	console.log("Wylosowana liczba jest zbyt mała, aby użyć pętli.");
+}
