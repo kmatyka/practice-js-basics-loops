@@ -7,6 +7,3 @@ while(randomNumber !== x){
     iteration++
 }
 console.log(iteration);
-
-let one = Math.floor(Math.random());
-
