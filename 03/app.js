@@ -4,6 +4,6 @@ let randomNumber = -1;
 
 while(randomNumber !== x){
     randomNumber = Math.floor(Math.random() * 11);
-    iteration++
+    iteration++;
 }
 console.log(iteration);
