@@ -4,7 +4,7 @@ let randomNumber = -1;
 
 
 while(randomNumber !== x){
-   randomNumber = Math.round(Math.random() * 1000000000)
+   randomNumber = Math.round(Math.random() * 1000)
     iteration = iteration + 1;
 }
 
