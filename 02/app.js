@@ -15,3 +15,5 @@ while (i <= x) {
 	console.log(result);
 	i++;
 }
+
+console.log(result);
