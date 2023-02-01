@@ -1,7 +1,7 @@
 const x = 5;
 let result = 0;
 
-//for(i=0; i<=x; i++){
+//for( let i = 0; i<=x; i++){
 
  // result = result + i
     
@@ -10,18 +10,19 @@ let result = 0;
 //}
 
 
-while(result <= x){
+let j = 0;
+
+while( j <= x){
     
-  console.log(result)
-  result++;
-  sum = result;
-  alert(result + sum)
-    
+  result = result + j
+  j++;
+     
 }
 
+console.log(result)
 
 
-  
+
   
   
  
