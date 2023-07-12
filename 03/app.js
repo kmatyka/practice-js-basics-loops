@@ -7,8 +7,4 @@ let randomNumber = 0;
 while (x !== randomNumber) {
     randomNumber = Math.round(Math.random() * 10);
     iteration++
-    if (randomNumber === x) {
-        console.log(`after checking ${iteration} times, We found equal number to x`);
-       break;
-    }
 }
