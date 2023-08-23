@@ -1,13 +1,9 @@
 const x = 10;
 let iteration = 0;
 let randomNumber = -1;
-while (true) {
+while (randomNumber !== x) {
     iteration++;
-    randomNumber = Math.ceil(Math.random() * x); // Losuje liczbę od 1 do x
-
-    if (randomNumber === x) {
-        break; // Przerwij pętlę, gdy wylosowana liczba jest równa x
-    }
+    randomNumber = Math.round(Math.random() * x); // Losuje liczbę od 1 do x
 }
 
 // Wyświetlenie wyników
