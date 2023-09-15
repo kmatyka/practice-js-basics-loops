@@ -2,7 +2,7 @@ const x = 5;
 let result = 0;
 
 // Let
-console.log('____Let____');
+console.log('____for____');
 
 for (let i = 1; i <= x; i++) {
   result = result + i;
@@ -10,7 +10,7 @@ for (let i = 1; i <= x; i++) {
 }
 
 // While
-console.log('____While____');
+console.log('____while____');
 
 let resultWhile = 0;
 let i = 1;
