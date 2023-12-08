@@ -16,12 +16,7 @@ let iteration = 0;
 let randomNumber = -1;
 
 while(randomNumber !== x) {
-    randomNumber = Math.round(Math.random() * 20);
+    randomNumber = Math.round(Math.random() * 30)
     iteration++;
-    console.log(iteration)
-
-    if(randomNumber === x) {
-        console.log('liczba wykonanych iteracji:' + iteration);
-        console.log('liczba random:' + randomNumber)
-    }
 }
+console.log('Liczba losowań: ' + iteration);
