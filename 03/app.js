@@ -4,11 +4,8 @@ let randomNumber = -1;
 
 while(randomNumber !== x) {
     randomNumber = Math.round(Math.random() * 20);
-    iteration = 1;
-    iteration += iteration;
+    iteration += 1;
     console.log(randomNumber)
-    
-    if(randomNumber === x) {
-        console.log('Trafiłaś za ' + iteration + ' razem.')
-    }
 }
+
+console.log('Trafiłaś za ' + iteration + ' razem.')
