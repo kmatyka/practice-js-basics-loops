@@ -5,7 +5,8 @@ let randomNumber = -1;
 while (randomNumber !== x) {
   randomNumber = Math.round(Math.random() * 20);
   iteration++;
-  console.log(randomNumber, iteration);
 }
 
-console.log(`Wylosowana liczba to: ${randomNumber}, zgadłeś za ${iteration} razem.`);
+console.log(
+  `Wylosowana liczba to: ${randomNumber}, zgadłeś za ${iteration} razem.`
+);
