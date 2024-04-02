@@ -6,5 +6,11 @@ for (let i = 1; i <= x; i++) {
   console.log(`result = ${result}`);
 }
 
+let j=1;
+while (j <= x) {
+  result += j;
+  j++;
+  console.log(`result = ${result}`);
+}
 
 
