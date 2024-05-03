@@ -8,8 +8,10 @@ console.log(result)
 
 // while loop
 let result2 = 0;
+let j = 0;
 
-while(result2 !== 15 ) {
-    result2++
+while(j <= x ) {
+    result2 = result2 + j;
+    j++;
 }
 console.log(result2)
