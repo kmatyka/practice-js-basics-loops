@@ -7,3 +7,12 @@ for(let i = 0; i <= x; i++) {
 }
 
 console.log(result)
+
+///here the same code but using while loop
+let i = 0
+while(i <= x) {
+    result = result + i
+    console.log(result)
+    i++
+}
+console.log(`The final result is ${result}`)
